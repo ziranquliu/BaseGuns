@@ -48,7 +48,7 @@ spring:
     port: 6379
     password:
   profiles:
-    active: dev
+    active: development
   mvc:
     static-path-pattern: /static/**
     view:
@@ -71,19 +71,19 @@ spring:
 ###################  开发环境的profile  ###################
 ##########################################################
 spring:
-  profiles: dev
+  profiles: development
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+      url: jdbc:mysql://127.0.0.1:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
       username: root
-      password:
+      password: Hello1234
       filters: log4j,wall,mergeStat
 
 #多数据源
 biz:
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/biz?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+    url: jdbc:mysql://127.0.0.1:3306/biz?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
     username: root
-    password:
+    password: Hello1234
 
 logging:
   level.root: info
@@ -99,9 +99,9 @@ logging:
 spring:
   profiles: produce
   datasource:
-      url: jdbc:mysql://127.0.0.1:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+      url: jdbc:mysql://127.0.0.1:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=CONVERT_TO_NULL&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2B8
       username: root
-      password:
+      password: Hello1234
       filters: log4j,wall,mergeStat
 
 logging:

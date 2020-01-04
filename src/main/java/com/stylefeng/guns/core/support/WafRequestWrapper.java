@@ -28,6 +28,7 @@ import javax.servlet.http.HttpServletRequestWrapper;
  * @author   hubin
  * @Date	 2014-5-8 	 
  */
+@SuppressWarnings("unchecked")
 public class WafRequestWrapper extends HttpServletRequestWrapper {
 
 	private boolean filterXSS = true;

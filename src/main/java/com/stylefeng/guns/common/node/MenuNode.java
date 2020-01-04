@@ -15,6 +15,7 @@ import java.util.List;
  * @Description 菜单的节点
  * @date 2016年12月6日 上午11:34:17
  */
+@SuppressWarnings("unchecked")
 public class MenuNode implements Comparable {
 
     /**

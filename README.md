@@ -65,7 +65,7 @@ https://github.com/abel533/MyBatis-Spring-Boot
 2. 修改application.yml中的数据库用户名和密码
 3. 以maven方式导入项目到ide
 4. 修改application.yml中的数据库相关的配置,改为您本机的数据库配置
-5. 启动项目,管理员***账号admin/密码111111***
+5. 启动项目,管理员***账号admin/密码123456***
 
 ### 如何启动项目
 Guns目前支持三种启动方式:
@@ -101,9 +101,9 @@ java -jar guns-1.0.0-SNAPSHOT.jar
 6. WebUploader 0.1.5
 
 ### 后端
-1. SpringBoot 1.5.3.RELEASE
+1. SpringBoot 1.5.22.RELEASE
 2. MyBatis-通用Mapper-starter 1.1.3
-2. MyBats-PageHelper-starter 1.1.2
+2. MyBats-PageHelper-starter 1.1.3
 3. MyBatis 3.4.4
 4. Spring 4.3.8.RELEASE
 5. Beetl 2.7.15

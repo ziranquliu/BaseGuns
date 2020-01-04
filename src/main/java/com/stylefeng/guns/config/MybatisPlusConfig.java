@@ -66,6 +66,7 @@ public class MybatisPlusConfig {
      * 多数据源连接池配置
      */
     @Bean
+    @SuppressWarnings("unchecked")
     @ConditionalOnProperty(prefix = "guns", name = "muti-datasource-open", havingValue = "true")
     public DynamicDataSource mutiDataSource() {
 
